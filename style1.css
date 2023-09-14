@@ -86,8 +86,13 @@ header{
     color: #5fc86d;
 }
 
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .Meio{
-    padding: 7rem 0 0 8.5rem;
+    padding: 7rem 0 4rem;
     line-height: 4rem;
 }
 
@@ -199,12 +204,9 @@ section h1{
 .Container-poltronas,
 .Container-acessorios
 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    align-items: center;
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
     margin: 3rem 0 6rem;
     
 }

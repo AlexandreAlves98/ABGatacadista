@@ -71,7 +71,7 @@ ul {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -215,7 +215,7 @@ ul {
 @media (max-width: 960px) {
     .nav {
         position: absolute;
-        top: 50px;
+        top: 90px;
         right: 0;
         width: 0;
         height: 100vh;
@@ -621,6 +621,7 @@ ul {
 .footer__content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
     text-align: center;
     margin: var(--mb-3) 0 var(--mb-1);
     padding: 1rem;
@@ -641,13 +642,16 @@ ul {
 .footer__data h2{
     font-size: var(--normal-font-size);
     text-transform: uppercase;
-    padding: 0.5rem;
+    text-align: start;
+    margin-bottom: 1rem;
 }
 .footer__data ul li, .footer__data ul li a{
     font-size: var(--small-font-size);
     line-height: 1.8rem;
     color: var(--black-color);
     text-transform: uppercase;
+    text-align: start;
+    margin-bottom: 1rem;
 }
 .footer__data ul li:hover, .footer__data ul li a:hover{
     text-decoration: underline;
